@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: clip;
+}
+/* header section  */
+.header{
+    width: 67rem;
+}
+.navbar {
+    display: none;
+    flex-direction: column;
+   margin-left: 15rem;
+    border: 2px solid;
+    position: fixed;
+    left: 35rem;
+    top: 0;
+    right: 0;
+    width: 16rem;
+    background: white;
+    box-shadow: 0 0 0 1vw rgb(0 0 0 / 70%);
+    height: 100%;
+    text-align: center;
+    z-index: 1100;
+}
+.navbar-resp{
+    display: none;
+}
+.icons {
+    margin-left: 3rem;
+    flex-wrap: wrap;
+}
+#bar{
+    display: block;
+    margin-left: -1rem;
+    font-size: 1.5em;
+    border: 2px solid black;
+    width: 26px;
+    margin-top: -1.7rem;
+}
+/* home-section */
+
+#home-section {
+    width: 66rem;
+}
+#home-section .p4 {
+    position: absolute;
+    top: 15rem;
+}
+#home-section .btn4 {
+    position: absolute;
+    top: 23rem;
+}
+/* Servives-container section */
+
+ #Servives-container {
+     width: 66rem;
+ }
+
+/* project-container section */
+
+ #project-container{
+    position: relative;
+    width: 65.1rem;
+ }
+ /* Experience-container section  */
+
+ #Experience-container{
+    position: relative;
+    width: 66rem;
+ }
+ /* About-contianer section  */
+
+ #About-contianer {
+    position: relative;
+    width: 127%;
+}
+#about2 .box h3{
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+#about2 .box img {
+    margin-top: 1rem;
+    height: 44vh;
+    width: 148vh;
+    margin-left: 1rem;
+}
+/* Client-container section */
+#Client-container{
+    width: 66rem;
+}
+/* Footer-container section */
+#Footer-container{
+    width: 66rem;
+}
